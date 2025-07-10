@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add to Cart Book</name>
+   <tag></tag>
+   <elementGuidId>24b1a2df-79f8-45c8-91e5-087e967f5391</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-primary.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/app-book-card/mat-card/mat-card-content/app-addtocart/button/span[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3a78c102-0ba4-418f-a7a1-2c98278b027a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>c40c909a-818b-4052-a685-5e073c930db8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex justify-content-start card-deck-container mb-4 ng-star-inserted&quot;]/div[@class=&quot;p-1 ng-star-inserted&quot;]/app-book-card[1]/mat-card[@class=&quot;mat-mdc-card mdc-card book-card mat-elevation-z2 on-book-card-hover&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content&quot;]/app-addtocart[1]/button[@class=&quot;mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>c0ef47be-ebcf-4748-82bf-ac84574948a0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/app-book-card/mat-card/mat-card-content/app-addtocart/button/span[4]</value>
+      <webElementGuid>6aa9dffa-7667-4418-b74d-7d00263080e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

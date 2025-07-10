@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>All Categories</name>
+   <tag></tag>
+   <elementGuidId>48ca0b83-befb-4992-b45d-68a7efc1827b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-list-item.mat-mdc-list-item.mdc-list-item.active-category.mat-mdc-list-item-single-line.mdc-list-item--with-one-line</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/following::mat-list-item[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-list-item</value>
+      <webElementGuid>02e7e3d4-7ab9-4160-b898-2e12e24f44f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>routerlink</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>e3e6a5be-b5b1-4253-9458-bc76439107dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-list-item mdc-list-item active-category mat-mdc-list-item-single-line mdc-list-item--with-one-line</value>
+      <webElementGuid>6d4a2f90-4678-445e-8415-4470d7d18558</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>be2e868c-380f-445c-bdee-c65f4646fafc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>9c7a52c0-0774-4aba-b8f5-764e085231aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> All Categories </value>
+      <webElementGuid>a286ae3a-9f62-49c9-988f-2a7d6f270091</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col-md-3 col-sm-12&quot;]/div[@class=&quot;filter-container&quot;]/app-book-filter[1]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list p-1 mat-elevation-z2&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item active-category mat-mdc-list-item-single-line mdc-list-item--with-one-line&quot;]</value>
+      <webElementGuid>020b2d12-1334-449a-9791-25bd05ff3e89</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/following::mat-list-item[1]</value>
+      <webElementGuid>80525a2f-8b71-47c3-8893-7bb08a9083a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swagger'])[1]/following::mat-list-item[1]</value>
+      <webElementGuid>11de47bd-dccb-406a-a26b-a2748ed85dff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Biography'])[1]/preceding::mat-list-item[1]</value>
+      <webElementGuid>afc067ad-a4e1-406f-a2a8-b43055f20636</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-list-item</value>
+      <webElementGuid>7c757070-4315-4d67-a989-522ac2e2aba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-list-item[(text() = ' All Categories ' or . = ' All Categories ')]</value>
+      <webElementGuid>d9c7285e-6f49-4b33-b58a-387bd9869244</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Image_Book</name>
+   <tag></tag>
+   <elementGuidId>cdb94060-907a-429c-957c-bae83aff7edd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.mat-mdc-card-image.mdc-card__media</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='No image available']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>bc6f6fe6-5be6-4327-a62c-0288bf29ad31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>No image available</value>
+      <webElementGuid>cf37f03a-2ffe-4524-b4ad-57d00718c335</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-card-image mdc-card__media</value>
+      <webElementGuid>0b4b0c29-0035-463c-9bd2-fa178f877a7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/Upload/c63ade52-3f90-41fa-980a-1136b6ad2128HP3.jpg</value>
+      <webElementGuid>7d673077-09a5-4f4d-a985-b3028fcade4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-book-details[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card mt-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content row g-0 d-flex p-3&quot;]/div[@class=&quot;col-md-3 col-sm-12&quot;]/img[@class=&quot;mat-mdc-card-image mdc-card__media&quot;]</value>
+      <webElementGuid>aa605d1f-1f90-442c-a671-618d46203061</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='No image available']</value>
+      <webElementGuid>c0298580-f061-4881-b943-f733cf00a533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>02deb450-dc39-4638-98be-b6a1b81f23ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'No image available' and @src = '/Upload/c63ade52-3f90-41fa-980a-1136b6ad2128HP3.jpg']</value>
+      <webElementGuid>49e0e82b-3c20-4ba0-bbe9-3dd3ce9a5a4c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

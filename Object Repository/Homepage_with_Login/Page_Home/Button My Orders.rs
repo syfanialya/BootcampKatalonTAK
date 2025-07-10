@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button My Orders</name>
+   <tag></tag>
+   <elementGuidId>0c3a1264-514a-4479-b492-0fa850283c26</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mat-mdc-menu-item-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-menu-panel-0']/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e95ac224-dfbc-4013-ae0e-353c8c9e4fd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-menu-item-text</value>
+      <webElementGuid>01701a43-504c-4496-8458-86f6a4d96632</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Orders</value>
+      <webElementGuid>c7b9192f-e085-4e6e-a698-01617ce9f40e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-menu-panel-0&quot;)/div[@class=&quot;mat-mdc-menu-content&quot;]/button[@class=&quot;mat-mdc-menu-item mat-focus-indicator cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-menu-item-text&quot;]</value>
+      <webElementGuid>ef89c4e8-b0a5-4c5f-b217-27cd5a13e3df</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mat-menu-panel-0']/div/button/span</value>
+      <webElementGuid>4c983a65-825f-47d0-b21b-3750ed10511e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::span[1]</value>
+      <webElementGuid>a9de2f70-0ab0-46e3-bebf-285dd67c226f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Orders']/parent::*</value>
+      <webElementGuid>54491587-ed6d-47f1-ab44-090f11ee6582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/button/span</value>
+      <webElementGuid>9089867c-6b5c-4aa8-9b7b-662907b8e1f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'My Orders' or . = 'My Orders')]</value>
+      <webElementGuid>687441a1-f1d8-4ec0-ae77-04ff81c5f432</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

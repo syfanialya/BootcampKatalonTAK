@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Cart</name>
+   <tag></tag>
+   <elementGuidId>e5aeb38d-10f8-4bc9-a7ea-937726d2d4b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/button/span[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2969c767-23ea-445d-b900-04a018bfd2a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>1ee24c41-8510-47ac-bfda-2243a2035880</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>7834c20c-7fb8-4b58-9eaa-b37d08f8d961</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span[3]</value>
+      <webElementGuid>1ca312f5-d1a1-444f-85f8-89cf0f26cfc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

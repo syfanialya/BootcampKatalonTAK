@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Regist</name>
+   <tag></tag>
+   <elementGuidId>5570ea72-7d2a-4d39-a15a-70ccd7ff0500</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.mat-unthemed.mat-mdc-button-base.cdk-focused.cdk-mouse-focused > span.mat-mdc-button-touch-target</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/button/span[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d54d2280-ea8c-4d6e-926b-d2273a909398</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-button-touch-target</value>
+      <webElementGuid>ef8963dc-9933-45e7-9437-34ae9afcb35c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-login[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;d-flex justify-content-center&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 w-50&quot;]/mat-card-header[@class=&quot;mat-mdc-card-header mat-elevation-z2 custom-card-header justify-content-between&quot;]/div[2]/button[@class=&quot;mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
+      <webElementGuid>8f3889d2-64e8-4623-9b8a-e9a63eb4177d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button/span[4]</value>
+      <webElementGuid>61482fd1-3cc2-4686-bca6-2379de1eb0c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

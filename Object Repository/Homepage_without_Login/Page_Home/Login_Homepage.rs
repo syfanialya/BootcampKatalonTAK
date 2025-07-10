@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Login_Homepage</name>
+   <tag></tag>
+   <elementGuidId>595deceb-b1cd-49d5-b07a-7cbcfdf852ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-mdc-tooltip-trigger.mdc-button.mdc-button--unelevated.mat-mdc-unelevated-button.mat-primary.mat-mdc-button-base.ng-star-inserted.cdk-focused.cdk-mouse-focused > span.mdc-button__label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Cart'])[1]/following::span[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1534e1a2-9bf0-41de-8ddd-3bb40fc10a90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-button__label</value>
+      <webElementGuid>0ddecb8a-a32e-4fda-9d8e-59621858daf4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Login </value>
+      <webElementGuid>f53d7b87-6c22-437c-b90c-3a665c12b5f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mat-mdc-tooltip-trigger mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mdc-button__label&quot;]</value>
+      <webElementGuid>a958996f-48d1-40a1-a0d3-73075be232cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Cart'])[1]/following::span[8]</value>
+      <webElementGuid>8654d85d-a85c-4539-84b2-1dbd34a472ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swagger'])[1]/preceding::span[5]</value>
+      <webElementGuid>3939e11f-d7f0-4fcc-b07c-0d95de731501</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/preceding::span[10]</value>
+      <webElementGuid>0cd2bc51-bb77-489a-b235-4b0f6f3ced17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
+      <webElementGuid>3f3a7eb7-f933-48e7-b6df-37c06ed5110b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span[2]</value>
+      <webElementGuid>7443a4c5-fd2d-4733-96a6-94b27dada089</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Login ' or . = ' Login ')]</value>
+      <webElementGuid>ddfe384f-c456-47c4-abaf-244bb83bbbe1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

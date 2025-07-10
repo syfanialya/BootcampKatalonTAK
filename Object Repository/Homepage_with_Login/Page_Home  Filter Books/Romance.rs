@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Romance</name>
+   <tag></tag>
+   <elementGuidId>745613ce-a925-4520-a399-d79f20af525f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>abef9795-5638-4ac6-b426-bd76091d3fd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdc-list-item__content</value>
+      <webElementGuid>50f5078e-1611-40e8-9ce6-61307fb8d343</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Romance </value>
+      <webElementGuid>5db21747-813c-49fd-93d3-40935ecf789a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col-md-3 col-sm-12&quot;]/div[@class=&quot;filter-container&quot;]/app-book-filter[1]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list p-1 mat-elevation-z2&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]/span[@class=&quot;mdc-list-item__content&quot;]</value>
+      <webElementGuid>22558523-e81c-4f34-9863-a18a2c768b41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::span[1]</value>
+      <webElementGuid>5f46b86f-e291-4a90-8d51-db97a1baaa9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mystery'])[1]/following::span[3]</value>
+      <webElementGuid>e0ddb881-4efb-48a3-a485-2badf364b2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price Filter'])[1]/preceding::span[2]</value>
+      <webElementGuid>09400d2e-fcf9-49ba-b15b-eddd1bb6e4c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-list-item[6]/span</value>
+      <webElementGuid>58e32910-37d8-4028-8f36-533be2c3af0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Romance ' or . = ' Romance ')]</value>
+      <webElementGuid>e6533879-8de4-4478-bc90-cf66d793d76a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

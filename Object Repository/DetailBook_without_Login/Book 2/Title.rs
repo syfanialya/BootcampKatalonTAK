@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Title</name>
+   <tag></tag>
+   <elementGuidId>b61254a3-f9ff-4ed2-b990-53541bfef12f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Details'])[2]/following::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>35a223f0-3bba-49b4-9074-0e5f84e2f3da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Title</value>
+      <webElementGuid>b358a639-2b0c-4106-94d7-053897525d56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-book-details[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card mt-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content row g-0 d-flex p-3&quot;]/div[@class=&quot;col-md-5 col-sm-12 d-flex flex-column justify-content-between&quot;]/table[@class=&quot;table table-lg&quot;]/tbody[1]/tr[1]/td[1]</value>
+      <webElementGuid>8be90528-b41a-42c5-b699-763bafd68b49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Details'])[2]/following::td[1]</value>
+      <webElementGuid>e60baea2-c9bc-4d7d-97a9-465e7fac9d7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/following::td[1]</value>
+      <webElementGuid>b898961a-a407-4d03-b100-718d5564b984</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Prisoner of Azkaban'])[1]/preceding::td[1]</value>
+      <webElementGuid>0e6bb123-19fd-4615-b467-bcaa2f703dc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>0935d47f-d803-4305-9dd0-9cc8120060d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Title' or . = 'Title')]</value>
+      <webElementGuid>c98bf6cf-2501-4a6b-811d-d35db4b9c52a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

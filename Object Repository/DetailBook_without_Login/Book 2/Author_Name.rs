@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Author_Name</name>
+   <tag></tag>
+   <elementGuidId>bf82a954-6326-4c15-b599-d3193c7ce91d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(2) > td:nth-of-type(2)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/following::td[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>3aad6553-c911-4847-b0eb-ad131bf3d171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JKR</value>
+      <webElementGuid>9e442a67-c1a2-4f88-95ed-5e8a7a28ac20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-book-details[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card mt-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content row g-0 d-flex p-3&quot;]/div[@class=&quot;col-md-5 col-sm-12 d-flex flex-column justify-content-between&quot;]/table[@class=&quot;table table-lg&quot;]/tbody[1]/tr[2]/td[2]</value>
+      <webElementGuid>5eb4f339-99e0-447b-a1c3-0150e618a9e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/following::td[1]</value>
+      <webElementGuid>2c8b110d-8c19-4b28-a70f-35a6547926ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Prisoner of Azkaban'])[1]/following::td[2]</value>
+      <webElementGuid>34e74c96-38d6-4b53-8eb5-cd4382e3b97e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/preceding::td[1]</value>
+      <webElementGuid>a247f878-9d7d-4e44-b127-9e16b2a4e10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Romance'])[1]/preceding::td[2]</value>
+      <webElementGuid>14dfd8ed-142c-4ed2-a196-27a9ffcd318d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='JKR']/parent::*</value>
+      <webElementGuid>c2a93d75-89d4-4368-82dc-fbb2c9062b41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>d644ebcf-1286-4287-9420-aca233ce9b83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'JKR' or . = 'JKR')]</value>
+      <webElementGuid>6ef48111-2601-4aab-97c8-a310e2382ed8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
