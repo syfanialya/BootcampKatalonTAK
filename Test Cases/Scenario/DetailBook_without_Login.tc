@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>DetailBook_without_Login</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>71e61c9f-022e-4cf2-b5d2-f1225710b9a0</testCaseGuid>
-</TestCaseEntity>

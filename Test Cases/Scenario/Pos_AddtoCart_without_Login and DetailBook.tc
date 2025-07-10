@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pos_AddtoCart_without_Login and DetailBook</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>73c7f7df-918a-4b26-be6e-f9d12443169b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Paginator</name>
+   <tag></tag>
+   <elementGuidId>5337b688-dc4d-4e0b-81c3-1cb7480c78e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-my-orders[@class=&quot;ng-tns-c259219554-2 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-tns-c259219554-2 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c259219554-2 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-tns-c259219554-2&quot;]/div[@class=&quot;mat-elevation-z2 ng-tns-c259219554-2&quot;]/mat-paginator[@class=&quot;mat-mdc-paginator ng-tns-c259219554-2&quot;]/div[@class=&quot;mat-mdc-paginator-outer-container&quot;]/div[@class=&quot;mat-mdc-paginator-container&quot;]/div[@class=&quot;mat-mdc-paginator-page-size ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c508571215-4 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted&quot;]/div[@class=&quot;mat-mdc-text-field-wrapper mdc-text-field ng-tns-c508571215-4 mdc-text-field--outlined mdc-text-field--no-label&quot;]/div[@class=&quot;mat-mdc-form-field-flex ng-tns-c508571215-4&quot;]/div[@class=&quot;mat-mdc-form-field-infix ng-tns-c508571215-4&quot;]/div[@class=&quot;mat-mdc-paginator-touch-target ng-tns-c508571215-4&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-mdc-paginator-touch-target.ng-tns-c508571215-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-form-field/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5a40e395-07ce-4e8f-b1bf-872696d5d5de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-paginator-touch-target ng-tns-c508571215-4</value>
+      <webElementGuid>1796cc62-800c-4fdd-84d4-a886a761612d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-my-orders[@class=&quot;ng-tns-c259219554-2 ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-tns-c259219554-2 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c259219554-2 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content ng-tns-c259219554-2&quot;]/div[@class=&quot;mat-elevation-z2 ng-tns-c259219554-2&quot;]/mat-paginator[@class=&quot;mat-mdc-paginator ng-tns-c259219554-2&quot;]/div[@class=&quot;mat-mdc-paginator-outer-container&quot;]/div[@class=&quot;mat-mdc-paginator-container&quot;]/div[@class=&quot;mat-mdc-paginator-page-size ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c508571215-4 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted&quot;]/div[@class=&quot;mat-mdc-text-field-wrapper mdc-text-field ng-tns-c508571215-4 mdc-text-field--outlined mdc-text-field--no-label&quot;]/div[@class=&quot;mat-mdc-form-field-flex ng-tns-c508571215-4&quot;]/div[@class=&quot;mat-mdc-form-field-infix ng-tns-c508571215-4&quot;]/div[@class=&quot;mat-mdc-paginator-touch-target ng-tns-c508571215-4&quot;]</value>
+      <webElementGuid>1bed94fa-a023-4bb4-9afa-680b46508fa1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div/div[2]/div</value>
+      <webElementGuid>deb85bcf-6d94-47ec-a7ea-82e6b0cff169</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

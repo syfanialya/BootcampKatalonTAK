@@ -19,13 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Homepage_without_Login/Page_Home/Login_Homepage'))
+WebUI.callTestCase(findTestCase('Blocks/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Login/Input Username'), 'userbaru10')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Input_Password'), 'fMhQ7SVMnhlpGWnDFuIlog==')
-
-WebUI.click(findTestObject('Login/Button_Login'))
-
-WebUI.verifyElementVisible(findTestObject('Homepage_with_Login/Page_Home/Book Cart'))
+WebUI.callTestCase(findTestCase('Blocks/Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Homepage_without_Login/Page_Home/Login_Homepage'))
+
+WebUI.setText(findTestObject('Login/Input Username'), 'uerbaru10')
+
+WebUI.setEncryptedText(findTestObject('Login/Input_Password'), 'fMhQ7SVMnhmU4kpjdwrBOQ==')
+
+WebUI.click(findTestObject('Login/Button_Login'))
+
+WebUI.callTestCase(findTestCase('Blocks/Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)
+

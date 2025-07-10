@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Neg_Checkout_without_Login_Empthy_Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9de7abca-6163-44da-9bfb-2fbefd0384c0</testCaseGuid>
+</TestCaseEntity>

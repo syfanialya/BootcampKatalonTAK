@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pos_AddtoCart_already_Login_with_DetailBook</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2a51961-67cf-4c70-9150-513b1d8cdca2</testCaseGuid>
+</TestCaseEntity>

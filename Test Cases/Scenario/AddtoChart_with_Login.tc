@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>AddtoChart_with_Login</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8e7d325d-4e17-4dc3-9478-bd200f4a4655</testCaseGuid>
-</TestCaseEntity>

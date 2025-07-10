@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Confirm Password</name>
+   <tag></tag>
+   <elementGuidId>67f7ff96-92b7-4fbb-8453-46b8e4e77751</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-label.ng-tns-c508571215-7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='mat-mdc-form-field-label-6']/mat-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-label</value>
+      <webElementGuid>0ebb697b-94eb-4907-be84-3d9a1ad0b520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c508571215-7</value>
+      <webElementGuid>3043f670-68ab-4789-9d4f-0b32f17af529</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirm Password</value>
+      <webElementGuid>3413b23b-bc40-4b11-bb4a-6cd2e7c45f51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-mdc-form-field-label-6&quot;)/mat-label[@class=&quot;ng-tns-c508571215-7&quot;]</value>
+      <webElementGuid>28201486-843c-43be-9b88-6bb0a9c70c00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='mat-mdc-form-field-label-6']/mat-label</value>
+      <webElementGuid>cd11b4c4-abdc-45f9-8932-ea6de0968623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::mat-label[1]</value>
+      <webElementGuid>93ff984c-caa5-4086-9492-e92dab08dce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name is not available'])[1]/following::mat-label[2]</value>
+      <webElementGuid>804d48ae-8c78-4072-9140-e76cd8a01f17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/preceding::mat-label[1]</value>
+      <webElementGuid>dc136a62-f875-4f4b-a0d4-eddfae7c1334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Male'])[1]/preceding::mat-label[2]</value>
+      <webElementGuid>a746b538-26c9-4fc7-ba08-8fdbdc2bdd61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirm Password']/parent::*</value>
+      <webElementGuid>98fc6d43-2b74-481d-be7c-d20044f440e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[5]/div/div/div/div[2]/label/mat-label</value>
+      <webElementGuid>4ad9da25-a7d4-4fff-9314-0212921f551c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-label[(text() = 'Confirm Password' or . = 'Confirm Password')]</value>
+      <webElementGuid>1a35de95-359f-4a72-a15f-d6e1db3236cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

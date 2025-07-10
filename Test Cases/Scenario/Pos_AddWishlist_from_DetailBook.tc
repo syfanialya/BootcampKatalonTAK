@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pos_AddWishlist_from_DetailBook</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d84452ff-f8fd-4ab3-9332-30b1b1e20571</testCaseGuid>
+</TestCaseEntity>

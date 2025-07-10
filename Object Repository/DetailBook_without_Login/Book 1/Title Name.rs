@@ -13,6 +13,10 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::td[1]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Harry Potter and the Chamber of Secrets' or . = 'Harry Potter and the Chamber of Secrets')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>59c7e1c2-9c7f-43d0-92ae-383d87a61f8d</webElementGuid>
+      <webElementGuid>bfa300a2-6741-4f07-84f5-5a2e50243f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Harry Potter and the Chamber of Secrets</value>
-      <webElementGuid>7913497d-f26f-4183-b2d2-5e24fc55e7a3</webElementGuid>
+      <webElementGuid>ebf899c6-9714-4a44-81cd-9e3f87eaebef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-book-details[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card mt-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content row g-0 d-flex p-3&quot;]/div[@class=&quot;col-md-5 col-sm-12 d-flex flex-column justify-content-between&quot;]/table[@class=&quot;table table-lg&quot;]/tbody[1]/tr[1]/td[2]</value>
-      <webElementGuid>46f2afcd-9d0f-4f94-abb6-7c1f89cd0f4a</webElementGuid>
+      <webElementGuid>8a70296f-4bde-4d19-bb4f-ef4c610fd07f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::td[1]</value>
-      <webElementGuid>13fab9fd-eea0-4eba-b340-9129e18e3bfb</webElementGuid>
+      <webElementGuid>23a35fed-4896-465a-8768-d1100056d781</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Book Details'])[2]/following::td[2]</value>
-      <webElementGuid>f66cbcd9-5dbd-4424-be59-477ad5746e9b</webElementGuid>
+      <webElementGuid>007fd4c3-88fb-417f-a8ce-c323add7900d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +67,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/preceding::td[1]</value>
-      <webElementGuid>410b619b-e54a-44ec-a3b3-6f5e45801929</webElementGuid>
+      <webElementGuid>fc9b8ee4-dbfc-430a-913b-a2f42753020c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JKR'])[1]/preceding::td[2]</value>
-      <webElementGuid>02d3aaf0-aacf-4a4b-9a05-2d699b8fe7e7</webElementGuid>
+      <webElementGuid>557d21ee-a184-4224-9be8-38392a347392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Harry Potter and the Chamber of Secrets']/parent::*</value>
-      <webElementGuid>f948910b-ab5e-4999-ad25-9b93b695f6ad</webElementGuid>
+      <webElementGuid>71bf0a50-83a5-4e59-ac8a-4e2f506be239</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[2]</value>
-      <webElementGuid>7858c114-25ae-43cc-b3a3-af2139d701ed</webElementGuid>
+      <webElementGuid>8938bcbd-8de6-4da2-8902-e44ebc7c640b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +99,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'Harry Potter and the Chamber of Secrets' or . = 'Harry Potter and the Chamber of Secrets')]</value>
-      <webElementGuid>b0eb8a3e-cc26-41f3-866a-493aa53133bd</webElementGuid>
+      <webElementGuid>5b24b5dd-3c0c-44d7-9499-1d2d961244fd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
