@@ -39,8 +39,6 @@ WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 1/Simil
 
 WebUI.back(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Homepage_without_Login/Book2/Book_Harry Potter and the Prisoner of Azkaban'))
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 2/Header_Book Details'))
