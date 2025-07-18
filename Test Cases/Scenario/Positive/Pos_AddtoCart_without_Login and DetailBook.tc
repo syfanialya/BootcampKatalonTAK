@@ -6,4 +6,11 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>73c7f7df-918a-4b26-be6e-f9d12443169b</testCaseGuid>
+   <variable>
+      <defaultValue>'Fantasy'</defaultValue>
+      <description></description>
+      <id>34cbd92f-00a2-4015-a940-104f25becaf0</id>
+      <masked>false</masked>
+      <name>Categories</name>
+   </variable>
 </TestCaseEntity>

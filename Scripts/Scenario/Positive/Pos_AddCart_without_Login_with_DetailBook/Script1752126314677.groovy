@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage_without_Login/Book1/Book_Harry Potter and the Chamber of Secrets'))
+WebUI.click(findTestObject('Homepage_without_Login/AllCategory_Book/Book1/Book_Harry Potter and the Chamber of Secrets'))
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 1/Book Details'))
 
@@ -39,7 +39,7 @@ WebUI.back()
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Homepage_without_Login/Book2/Book_Harry Potter and the Prisoner of Azkaban'))
+WebUI.click(findTestObject('Homepage_without_Login/AllCategory_Book/Book2/Book_Harry Potter and the Prisoner of Azkaban'))
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 2/Header_Book Details'))
 
@@ -54,6 +54,8 @@ WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 2/Price
 WebUI.click(findTestObject('DetailBook_without_Login/Book 2/Button_Add to Cart'))
 
 WebUI.click(findTestObject('DetailBook_without_Login/Book 2/Button_Cart'))
+
+WebUI.scrollToElement(findTestObject('Cart_without_Login/Button_CheckOut'), 0)
 
 WebUI.callTestCase(findTestCase('Blocks/Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 

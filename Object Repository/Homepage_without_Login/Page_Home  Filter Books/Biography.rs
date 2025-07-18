@@ -6,15 +6,19 @@
    <elementGuidId>dd8bb9c8-081f-4c56-acd9-14b10c1e9085</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Biography ' or . = ' Biography ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>mat-list-item.mat-mdc-list-item.mdc-list-item.active-category.mat-mdc-list-item-single-line.mdc-list-item--with-one-line.ng-star-inserted</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='All Categories'])[1]/following::mat-list-item[1]</value>
+         <value>//mat-list-item[(text() = ' Biography ' or . = ' Biography ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-list-item</value>
-      <webElementGuid>65bc6207-6f5a-46eb-a6db-6f4c77177f8a</webElementGuid>
+      <webElementGuid>fcb81b90-5ede-479a-a443-d98ae65117d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>routerlink</name>
       <type>Main</type>
       <value>/filter</value>
-      <webElementGuid>17ca9058-caa1-4a85-a9c8-4edad05815c6</webElementGuid>
+      <webElementGuid>7bc84f3c-357f-4bdd-b74f-6ed12ce80b9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-list-item mdc-list-item active-category mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted</value>
-      <webElementGuid>6fe7f68d-d1c5-421c-9d8c-e0983ac58df5</webElementGuid>
+      <webElementGuid>e47b1926-450f-45ad-9daf-3b1405ee8ba6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>d63b2605-e7cd-473d-98b6-5b413cf8bc64</webElementGuid>
+      <webElementGuid>de5ad3ab-ae28-449c-bdf4-edea5f12b968</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>42087bfe-4920-4504-8391-69566c19569f</webElementGuid>
+      <webElementGuid>35a073b5-8746-45db-b57d-f4d157b85b1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Biography </value>
-      <webElementGuid>76bc48c9-e8cb-4d64-a85c-454b9d7ef2eb</webElementGuid>
+      <webElementGuid>c5eeefd1-233d-4092-970e-024138fc7f8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col-md-3 col-sm-12&quot;]/div[@class=&quot;filter-container&quot;]/app-book-filter[1]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list p-1 mat-elevation-z2&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item active-category mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]</value>
-      <webElementGuid>72330df9-4e6d-4464-a485-2925b9b34e04</webElementGuid>
+      <webElementGuid>cccad55b-2b1d-40cc-b57a-b8d4888d06d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='All Categories'])[1]/following::mat-list-item[1]</value>
-      <webElementGuid>7d93683a-05c9-490d-b3e9-8e9952def0be</webElementGuid>
+      <webElementGuid>466d6eda-e009-4023-89da-5af13a32cb40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GitHub'])[1]/following::mat-list-item[2]</value>
-      <webElementGuid>97c78b5d-4950-432c-98d1-50742c6fa38d</webElementGuid>
+      <webElementGuid>e55fba70-1e04-4da7-b1a8-ff36d900cb1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fiction'])[1]/preceding::mat-list-item[1]</value>
-      <webElementGuid>13f9af93-fb92-47b6-ac61-d0a48e8d4320</webElementGuid>
+      <webElementGuid>69b3cd8d-8f24-42f0-b167-f71bc69d1062</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-list-item[2]</value>
-      <webElementGuid>12dc1744-a14d-48e3-8acc-c2c923b00e05</webElementGuid>
+      <webElementGuid>cfe082cc-efbf-4443-af05-755868a241b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-list-item[(text() = ' Biography ' or . = ' Biography ')]</value>
-      <webElementGuid>141b8c07-b85b-4518-b2c5-6e31cf3c95e4</webElementGuid>
+      <webElementGuid>713700be-9420-455c-b8e7-d7f04e2d4680</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

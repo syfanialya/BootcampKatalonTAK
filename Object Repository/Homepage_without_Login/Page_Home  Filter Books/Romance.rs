@@ -6,15 +6,18 @@
    <elementGuidId>fdf29319-362f-4260-a50f-3995d032e5e8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Romance ' or . = ' Romance ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::mat-list-item[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-list-item</value>
-      <webElementGuid>e3e8f358-f946-4990-8106-c16f5d4eec97</webElementGuid>
+      <webElementGuid>742b31b5-31de-49ea-b650-89ddd6d1ad72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +34,7 @@
       <name>routerlink</name>
       <type>Main</type>
       <value>/filter</value>
-      <webElementGuid>4bbc1767-06cf-4eee-ba80-6d2e72d7b9c4</webElementGuid>
+      <webElementGuid>c450df3a-54c1-4587-8051-a0fe11b27297</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted</value>
-      <webElementGuid>d6c18d73-6092-4189-887e-b352959662bd</webElementGuid>
+      <webElementGuid>dc0e00a5-f563-43b9-9441-08cd2a83304e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +50,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1e6c72e3-6805-4ac6-9de7-d72a5476f4ae</webElementGuid>
+      <webElementGuid>b7b6c846-36be-4f3b-9c9f-c9932e0b1ba7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +58,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>744a5851-34dc-44d2-9362-d8429af0faa9</webElementGuid>
+      <webElementGuid>c6f50f52-b14f-4a53-b5fc-c7e86792c235</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Romance </value>
-      <webElementGuid>1f3590e3-6f1c-4655-b12f-0eb359d46418</webElementGuid>
+      <webElementGuid>aa46192a-965f-4682-95e0-f8b387d08862</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col-md-3 col-sm-12&quot;]/div[@class=&quot;filter-container&quot;]/app-book-filter[1]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list p-1 mat-elevation-z2&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted&quot;]</value>
-      <webElementGuid>386c700f-b380-422a-9e94-0be2a8f42654</webElementGuid>
+      <webElementGuid>48110a91-dcaf-47a5-9611-532c47b9da9c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/following::mat-list-item[1]</value>
-      <webElementGuid>889ffcc3-b5a2-414b-b184-180352132fcf</webElementGuid>
+      <webElementGuid>766a6de7-a741-4d5b-b233-e1b0e6e8e6f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mystery'])[1]/following::mat-list-item[2]</value>
-      <webElementGuid>f00f6c1f-6d0d-4bf3-bfb1-580c6bd1506c</webElementGuid>
+      <webElementGuid>7af0bb19-7993-43f6-8aac-8d2eef7f814f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Price Filter'])[1]/preceding::mat-list-item[1]</value>
-      <webElementGuid>89d80697-b0ff-4cea-ac9c-edefe131f3d9</webElementGuid>
+      <webElementGuid>d709061b-5258-4728-b079-7aa54f51c578</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-list-item[6]</value>
-      <webElementGuid>92539172-a978-4a6a-87fd-9630cd415ad7</webElementGuid>
+      <webElementGuid>df7f6346-64b6-4327-8a03-5d91ed7c370f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-list-item[(text() = ' Romance ' or . = ' Romance ')]</value>
-      <webElementGuid>2df42e0a-1215-4dc3-ba56-da9544efe559</webElementGuid>
+      <webElementGuid>ae262314-c396-4e30-8a4c-7c25a7419535</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

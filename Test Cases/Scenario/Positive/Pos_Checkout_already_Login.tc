@@ -6,4 +6,69 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a0660ddc-fed6-4899-98f4-c5ab0673a16a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6eef6b0-7f68-496d-89c3-ca2a1a0f5d6e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6f066b52-d5ad-43d1-b35b-ed4924a60d48</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c5d626ca-1739-4dc1-938e-5b750b60449c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3c619e6-1e46-4d72-9f3d-312819900a5c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90eaa491-69c4-4e7c-b983-e375d29e33ff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Alya'</defaultValue>
+      <description></description>
+      <id>a6eef6b0-7f68-496d-89c3-ca2a1a0f5d6e</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jalan Kenanga No.31'</defaultValue>
+      <description></description>
+      <id>6f066b52-d5ad-43d1-b35b-ed4924a60d48</id>
+      <masked>false</masked>
+      <name>Address_Line_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Tangerang Selatan'</defaultValue>
+      <description></description>
+      <id>c5d626ca-1739-4dc1-938e-5b750b60449c</id>
+      <masked>false</masked>
+      <name>Address_Line_2</name>
+   </variable>
+   <variable>
+      <defaultValue>9405311</defaultValue>
+      <description></description>
+      <id>d3c619e6-1e46-4d72-9f3d-312819900a5c</id>
+      <masked>false</masked>
+      <name>Pincode</name>
+   </variable>
+   <variable>
+      <defaultValue>'IND'</defaultValue>
+      <description></description>
+      <id>90eaa491-69c4-4e7c-b983-e375d29e33ff</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
 </TestCaseEntity>

@@ -39,15 +39,15 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Checkout/Total'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Checkout/Grand Total'))
 
-WebUI.setText(findTestObject('Object Repository/Checkout/input_Name'), 'Alya')
+WebUI.setText(findTestObject('Object Repository/Checkout/input_Name'), Name)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/input_Address Line 1'), 'Jalan Ahmad Yani No 1')
+WebUI.setText(findTestObject('Object Repository/Checkout/input_Address Line 1'), Address_Line_1)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/input_Address Line 2'), 'Jakarta Selatan ')
+WebUI.setText(findTestObject('Object Repository/Checkout/input_Address Line 2'), Address_Line_2)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/input_Pincode'), '112233')
+WebUI.setText(findTestObject('Object Repository/Checkout/input_Pincode'), Pincode)
 
-WebUI.setText(findTestObject('Object Repository/Checkout/input_State'), 'IND')
+WebUI.setText(findTestObject('Object Repository/Checkout/input_State'), State)
 
 WebUI.scrollToElement(findTestObject('Checkout/Button_Order'), 0)
 

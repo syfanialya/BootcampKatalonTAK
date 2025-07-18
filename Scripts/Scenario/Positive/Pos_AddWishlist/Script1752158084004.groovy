@@ -21,14 +21,14 @@ WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON
 
 WebUI.callTestCase(findTestCase('Blocks/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Homepage_already_Login/Book 3/Book_The Ministry of Truth The Biography of George Orwells 1984'), 
+WebUI.scrollToElement(findTestObject('Homepage_already_Login/AllCategory_Book/Book3/Book_The Ministry of Truth The Biography of George Orwells 1984'), 
     2)
 
-WebUI.click(findTestObject('Homepage_already_Login/Book 3/Favorite_The Ministry'))
+WebUI.click(findTestObject('Homepage_already_Login/AllCategory_Book/Book3/Favorite_The Ministry'))
 
-WebUI.scrollToElement(findTestObject('Homepage_already_Login/Book 4/Book_Soul of the Sword'), 2)
+WebUI.scrollToElement(findTestObject('Homepage_already_Login/AllCategory_Book/Book4/Book_Soul of the Sword'), 2)
 
-WebUI.click(findTestObject('Homepage_already_Login/Book 4/Favorite_Soul'))
+WebUI.click(findTestObject('Homepage_already_Login/AllCategory_Book/Book4/Favorite_Soul'))
 
 WebUI.click(findTestObject('Homepage_already_Login/Page_Home/Button Favorite'))
 

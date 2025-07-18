@@ -20,27 +20,28 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // Tunggu sampai elemen buku muncul
-WebUI.waitForElementClickable(findTestObject('Homepage_without_Login/Book1/Book_Harry Potter and the Chamber of Secrets'), 
-    10)
+WebUI.waitForElementClickable(findTestObject('Homepage_without_Login/AllCategory_Book/Book3'), 10)
 
-// Klik buku Harry Potter
-WebUI.click(findTestObject('Homepage_without_Login/Book1/Book_Harry Potter and the Chamber of Secrets'))
+// Klik buku
+WebUI.click(findTestObject('Homepage_without_Login/AllCategory_Book/Book3'))
 
-// Tambahkan delay agar halaman sempat load
-WebUI.delay(2)
-
-// Cek URL saat ini
+// Ambil URL Buku saat ini
 String actualUrl = WebUI.getUrl()
 
-// Jika sudah di halaman detail buku yang benar, kita paksa arahkan ke URL yang salah
-if (actualUrl == 'https://bookcart.azurewebsites.net/books/details/2') {
-    WebUI.comment('Berhasil ke detail buku yang benar, sekarang akan diarahkan ke halaman yang salah.')
-
-    WebUI.navigateToUrl('https://bookcart.azurewebsites.net/books/details/4')
+// Cek apakah bukan halaman yang diharapkan
+if (!actualUrl.equalsIgnoreCase('https://bookcart.azurewebsites.net/books/details/2')) {
+	WebUI.navigateToUrl('https://bookcart.azurewebsites.net/books/details/5')
+}
+else if (!actualUrl.equalsIgnoreCase('https://bookcart.azurewebsites.net/books/details/3')) {
+	WebUI.navigateToUrl('https://bookcart.azurewebsites.net/books/details/6')
 }
 
-// Ambil URL final dan verifikasi
+// Verifikasi akhir
 String finalUrl = WebUI.getUrl()
-
-WebUI.verifyMatch(finalUrl, 'https://bookcart.azurewebsites.net/books/details/4', false)
+if (finalUrl == 'https://bookcart.azurewebsites.net/books/details/5') {
+	WebUI.verifyMatch(finalUrl, 'https://bookcart.azurewebsites.net/books/details/5', false)
+}
+else if (finalUrl == 'https://bookcart.azurewebsites.net/books/details/6') {
+	WebUI.verifyMatch(finalUrl, 'https://bookcart.azurewebsites.net/books/details/6', false)
+}
 

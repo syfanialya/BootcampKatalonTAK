@@ -6,6 +6,10 @@
    <elementGuidId>5289688d-3209-4ecb-a667-fe56a913c89d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Mystery ' or . = ' Mystery ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>mat-list-item.mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-single-line.mdc-list-item--with-one-line.ng-star-inserted.active-category</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Fiction'])[1]/following::mat-list-item[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-list-item</value>
-      <webElementGuid>fb619d9c-8115-47bc-a668-732014977454</webElementGuid>
+      <webElementGuid>b005c5db-cf01-4adc-b319-709b58c3184a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>routerlink</name>
       <type>Main</type>
       <value>/filter</value>
-      <webElementGuid>dfb90f2d-b3b9-43eb-b360-20c02ab7ec14</webElementGuid>
+      <webElementGuid>e9d7ebf0-f984-40c7-8250-23d6b1acda56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted active-category</value>
-      <webElementGuid>0dfb4395-1451-4902-a194-73b6d6626578</webElementGuid>
+      <webElementGuid>48ed80bb-5ba0-4c8c-922b-88c6836f19b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>6cf1c186-bfba-4716-9bf7-6d5ecc3f2406</webElementGuid>
+      <webElementGuid>df494c91-d860-4047-9d7f-a80227373786</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e03d8b59-bf0d-4185-b6b1-e7ed8114d09e</webElementGuid>
+      <webElementGuid>70d1e9df-cef9-4f48-aa19-79ebf2a8f2c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Mystery </value>
-      <webElementGuid>998530ec-4163-4baa-b2cc-25d2a8add18a</webElementGuid>
+      <webElementGuid>3b2b0aa8-619e-40c4-8920-38838f765374</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col-md-3 col-sm-12&quot;]/div[@class=&quot;filter-container&quot;]/app-book-filter[1]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list p-1 mat-elevation-z2&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted active-category&quot;]</value>
-      <webElementGuid>e207cfc2-3907-4179-9fa8-b92f927515ac</webElementGuid>
+      <webElementGuid>8bbefc1e-11c7-430e-866f-ebdb9f88fdde</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fiction'])[1]/following::mat-list-item[1]</value>
-      <webElementGuid>aefde705-ec37-4479-84a1-011ad899ab2e</webElementGuid>
+      <webElementGuid>a1bea355-220e-4bb6-8be0-a60d80b929e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Biography'])[1]/following::mat-list-item[2]</value>
-      <webElementGuid>b81a20e9-7804-48cb-a338-057657c1e374</webElementGuid>
+      <webElementGuid>1a2a90b8-8da3-4556-b98a-f48510bd5f08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fantasy'])[1]/preceding::mat-list-item[1]</value>
-      <webElementGuid>577b949d-35c1-44c1-b044-ac6b6e4b6141</webElementGuid>
+      <webElementGuid>50b6454f-941b-486b-9fde-463f7c186fae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-list-item[4]</value>
-      <webElementGuid>9977d9a6-eeb1-485b-9b05-358b92de21a9</webElementGuid>
+      <webElementGuid>ccf0851b-983c-4a61-906d-c67d92635c8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-list-item[(text() = ' Mystery ' or . = ' Mystery ')]</value>
-      <webElementGuid>4d134725-e9fa-4f65-80a9-3704f23a17ef</webElementGuid>
+      <webElementGuid>8d468321-188c-4e7e-bab9-a1579b75ab02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

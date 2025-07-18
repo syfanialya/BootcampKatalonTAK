@@ -29,15 +29,15 @@ WebUI.setText(findTestObject('Registration/input_First name'), 'Yaya')
 
 WebUI.setText(findTestObject('Registration/input_Last name'), 'Nana')
 
-WebUI.setText(findTestObject('Registration/input_User name'), 'userbaru000')
+WebUI.setText(findTestObject('Registration/input_Username'), 'userbaru000')
 
 WebUI.setEncryptedText(findTestObject('Registration/input_Password'), 'fMhQ7SVMnhlpGWnDFuIlog==')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Registration/input_Confirm Password'), 'ECbvtbGzG7aMGC8oka7MCs0qyxmNI8Y3')
 
-WebUI.scrollToElement(findTestObject('Registration/Radio_Button_Female'), 0)
+WebUI.scrollToElement(findTestObject('Registration/Radio_Button'), 0)
 
-WebUI.click(findTestObject('Object Repository/Registration/Radio_Button_Female'))
+WebUI.click(findTestObject('Object Repository/Registration/Radio_Button'))
 
 WebUI.click(findTestObject('Object Repository/Registration/Button_Registration'))
 

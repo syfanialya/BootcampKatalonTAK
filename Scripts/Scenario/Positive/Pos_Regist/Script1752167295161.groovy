@@ -25,19 +25,19 @@ WebUI.click(findTestObject('Login/Button_Register'))
 
 WebUI.verifyElementVisible(findTestObject('Registration/Title_User Registration'))
 
-WebUI.setText(findTestObject('Registration/input_First name'), 'Yaya')
+WebUI.setText(findTestObject('Registration/input_First name'), Firstname)
 
-WebUI.setText(findTestObject('Registration/input_Last name'), 'Nana')
+WebUI.setText(findTestObject('Registration/input_Last name'), Lastname)
 
-WebUI.setText(findTestObject('Registration/input_User name'), 'userbaru000')
+WebUI.setText(findTestObject('Registration/input_Username'), Username)
 
-WebUI.setEncryptedText(findTestObject('Registration/input_Password'), 'fMhQ7SVMnhlpGWnDFuIlog==')
+WebUI.setEncryptedText(findTestObject('Registration/input_Password'), Password)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Registration/input_Confirm Password'), 'fMhQ7SVMnhlpGWnDFuIlog==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Registration/input_Confirm Password'), Password)
 
-WebUI.scrollToElement(findTestObject('Registration/Radio_Button_Female'), 0)
+WebUI.scrollToElement(findTestObject('Registration/Radio_Button'), 0)
 
-WebUI.click(findTestObject('Object Repository/Registration/Radio_Button_Female'))
+WebUI.click(findTestObject('Registration/Radio_Button'))
 
 WebUI.click(findTestObject('Object Repository/Registration/Button_Registration'))
 

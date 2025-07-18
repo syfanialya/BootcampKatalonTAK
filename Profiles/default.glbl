@@ -7,7 +7,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://bookcart.azurewebsites.net/'</initValue>
-      <name>G_0</name>
+      <name>Global Variabel</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

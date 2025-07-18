@@ -6,6 +6,10 @@
    <elementGuidId>20c778cb-a4e4-4a4d-bfd3-5bf3ec004951</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = ' Fantasy ' or . = ' Fantasy ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>mat-list-item.mat-mdc-list-item.mdc-list-item.mat-mdc-list-item-single-line.mdc-list-item--with-one-line.ng-star-inserted.active-category</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Mystery'])[1]/following::mat-list-item[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-list-item</value>
-      <webElementGuid>45278bcf-2dc7-46a5-9afb-efdcec9a2c74</webElementGuid>
+      <webElementGuid>2d6250bd-dc0e-4257-ab8d-283c907ac030</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +35,7 @@
       <name>routerlink</name>
       <type>Main</type>
       <value>/filter</value>
-      <webElementGuid>cf6c5b9e-5845-4b09-9050-a26653bbeb78</webElementGuid>
+      <webElementGuid>1eedd1dc-7e42-42e8-98d3-d69703605857</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted active-category</value>
-      <webElementGuid>42b9211d-4a0c-4fd5-8e11-74615fb31102</webElementGuid>
+      <webElementGuid>b8bcca0f-7105-46de-bfa9-02c50df51729</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +51,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>458b8f69-087e-422d-851a-17cf674899f6</webElementGuid>
+      <webElementGuid>806ef74a-9da0-41b3-a9ad-69808c694f85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a9f28b48-84d0-4d39-802f-3294741ea62a</webElementGuid>
+      <webElementGuid>e9ed3eb2-655e-44c9-9855-481402567957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Fantasy </value>
-      <webElementGuid>895325cc-cef8-4a2e-9c43-6294dfeee3cd</webElementGuid>
+      <webElementGuid>23449f0c-251d-48af-84a3-28eacaa0c6ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col-md-3 col-sm-12&quot;]/div[@class=&quot;filter-container&quot;]/app-book-filter[1]/mat-list[@class=&quot;mat-mdc-list mat-mdc-list-base mdc-list p-1 mat-elevation-z2&quot;]/mat-list-item[@class=&quot;mat-mdc-list-item mdc-list-item mat-mdc-list-item-single-line mdc-list-item--with-one-line ng-star-inserted active-category&quot;]</value>
-      <webElementGuid>436ecb0b-5375-416b-b78b-08d8298ba0ba</webElementGuid>
+      <webElementGuid>2ed252d9-bd36-4f72-b438-dbbd23daef20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mystery'])[1]/following::mat-list-item[1]</value>
-      <webElementGuid>316b4a37-7311-4eeb-a06a-ad3304d293cb</webElementGuid>
+      <webElementGuid>6a6319cd-2ce6-42b4-af25-f9eb5ed526c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fiction'])[1]/following::mat-list-item[2]</value>
-      <webElementGuid>4780cdfc-cf05-4f22-b85f-7a8600f7dd1a</webElementGuid>
+      <webElementGuid>dcfe9293-8749-48f2-9b65-3a989678201b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Romance'])[1]/preceding::mat-list-item[1]</value>
-      <webElementGuid>4f7b6632-80e2-4535-94b5-6b415c295a0c</webElementGuid>
+      <webElementGuid>b9703757-e1b3-4194-8bda-951dc1895441</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-list-item[5]</value>
-      <webElementGuid>7a431a59-9322-4e2f-99c6-b8f9e19956da</webElementGuid>
+      <webElementGuid>80793e03-0587-4fdc-8b0e-4f59d2859c1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +115,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-list-item[(text() = ' Fantasy ' or . = ' Fantasy ')]</value>
-      <webElementGuid>651eb8cf-ea26-4657-a48a-40df3ad5ed1f</webElementGuid>
+      <webElementGuid>4a0b844f-60bd-474e-9b99-23e3c30aa606</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

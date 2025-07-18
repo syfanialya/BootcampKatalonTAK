@@ -19,7 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage_without_Login/Book1/Book_Harry Potter and the Chamber of Secrets'))
+WebUI.click(findTestObject('Homepage_without_Login/Page_Home  Filter Books/Mystery'))
+
+WebUI.waitForElementVisible(findTestObject('Homepage_without_Login/Mystery_Book/Book_Harry Potter and the Chamber of Secrets'), 
+    5)
+
+WebUI.click(findTestObject('Homepage_without_Login/Mystery_Book/Book_Harry Potter and the Chamber of Secrets'))
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 1/Book Details'))
 
@@ -37,9 +42,14 @@ WebUI.scrollToElement(findTestObject('DetailBook_without_Login/Book 1/Header Sim
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 1/Similar Book 1'))
 
-WebUI.back(FailureHandling.STOP_ON_FAILURE)
+WebUI.back()
 
-WebUI.click(findTestObject('Homepage_without_Login/Book2/Book_Harry Potter and the Prisoner of Azkaban'))
+WebUI.click(findTestObject('Homepage_without_Login/Page_Home  Filter Books/Romance'))
+
+WebUI.waitForElementVisible(findTestObject('Homepage_without_Login/Romance_Book/Book_Harry Potter and the Prisoner of Azkaban'), 
+    5)
+
+WebUI.click(findTestObject('Homepage_without_Login/Romance_Book/Book_Harry Potter and the Prisoner of Azkaban'))
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_without_Login/Book 2/Header_Book Details'))
 

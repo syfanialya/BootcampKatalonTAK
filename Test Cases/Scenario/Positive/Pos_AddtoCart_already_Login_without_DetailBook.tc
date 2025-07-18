@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>8e7d325d-4e17-4dc3-9478-bd200f4a4655</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25b44a45-8b14-400a-85b9-ad71a2e57d26</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25b44a45-8b14-400a-85b9-ad71a2e57d26</id>
+      <masked>false</masked>
+      <name>Categories</name>
+   </variable>
 </TestCaseEntity>

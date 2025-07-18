@@ -21,7 +21,12 @@ WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON
 
 WebUI.callTestCase(findTestCase('Blocks/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Homepage_already_Login/Book 1/Book_Harry Potter and the Chamber of Secrets'))
+WebUI.click(findTestObject('Homepage_without_Login/Page_Home  Filter Books/Mystery'))
+
+WebUI.waitForElementVisible(findTestObject('Homepage_already_Login/AllCategory_Book/Book1/Book_Harry Potter and the Chamber of Secrets'), 
+    5)
+
+WebUI.click(findTestObject('Homepage_already_Login/AllCategory_Book/Book1/Book_Harry Potter and the Chamber of Secrets'))
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_already_Login/Book 1/Book Details_the Chamber'))
 
@@ -41,7 +46,12 @@ WebUI.verifyElementVisible(findTestObject('DetailBook_already_Login/Book 1/Simil
 
 WebUI.back()
 
-WebUI.click(findTestObject('Homepage_already_Login/Book 2/Book_Harry Potter and the Prisoner of Azkaban'))
+WebUI.click(findTestObject('Homepage_without_Login/Page_Home  Filter Books/Romance'))
+
+WebUI.waitForElementVisible(findTestObject('Homepage_already_Login/AllCategory_Book/Book2/Book_Harry Potter and the Prisoner of Azkaban'), 
+    5)
+
+WebUI.click(findTestObject('Homepage_already_Login/AllCategory_Book/Book2/Book_Harry Potter and the Prisoner of Azkaban'))
 
 WebUI.verifyElementVisible(findTestObject('DetailBook_already_Login/Book 2/Book Details_the Prisoner'))
 
