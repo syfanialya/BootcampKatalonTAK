@@ -23,7 +23,9 @@ WebUI.setText(findTestObject('Object Repository/Login/Input Username'), username
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Input_Password'), password)
 
-WebUI.click(findTestObject('Login/Button_Login'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Login/Button_Login'), 5)
 
-WebUI.verifyElementVisible(findTestObject('Homepage_already_Login/Page_Home/Book Cart'))
+WebUI.click(findTestObject('Object Repository/Login/Button_Login'))
+
+WebUI.verifyElementVisible(findTestObject('Homepage_already_Login/Page_Home/Button User'))
 

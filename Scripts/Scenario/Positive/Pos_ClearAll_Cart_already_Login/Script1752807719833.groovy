@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Login'), [('username') : 'userbaru10', ('password') : 'fMhQ7SVMnhlpGWnDFuIlog=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Homepage_already_Login/AllCategory_Book/Book3/Book_The Ministry of Truth The Biography of George Orwells 1984'), 
     0)

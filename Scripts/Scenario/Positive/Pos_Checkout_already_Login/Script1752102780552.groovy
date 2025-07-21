@@ -19,7 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Blocks/Open_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Login'), [('username') : 'userbaru10', ('password') : 'fMhQ7SVMnhlpGWnDFuIlog=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Homepage_already_Login/Page_Home/Button_Cart'))
 
