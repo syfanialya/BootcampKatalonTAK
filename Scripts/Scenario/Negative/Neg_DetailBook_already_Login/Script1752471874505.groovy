@@ -42,7 +42,13 @@ String finalUrl = WebUI.getUrl()
 
 if (finalUrl == 'https://bookcart.azurewebsites.net/books/details/5') {
     WebUI.verifyMatch(finalUrl, 'https://bookcart.azurewebsites.net/books/details/5', false)
+
+    WebUI.callTestCase(findTestCase('Blocks/Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.callTestCase(findTestCase('Blocks/Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 } else if (finalUrl == 'https://bookcart.azurewebsites.net/books/details/6') {
     WebUI.verifyMatch(finalUrl, 'https://bookcart.azurewebsites.net/books/details/6', false)
 }
+
+WebUI.callTestCase(findTestCase('Blocks/Close_Web'), [:], FailureHandling.STOP_ON_FAILURE)
 

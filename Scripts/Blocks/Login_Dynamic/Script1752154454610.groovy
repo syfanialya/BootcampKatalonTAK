@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-TestData LoginData = findTestData('Data Files/Test Data/TestData_Login')
+TestData LoginData = findTestData('Data Files/Test Data/Data Test')
 
 for (int i = 1; i <= LoginData.getRowNumbers(); i++) {
     String username = LoginData.getValue('username', i)
