@@ -22,7 +22,7 @@
       <guid>c909e2cf-a10d-4a13-bb4d-0c2dad9fec4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Blocks/Login_untuk_Suite</testCaseId>
+      <testCaseId>Test Cases/Blocks/Login_Dynamic</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>eff9d75d-83c3-4a29-8204-cbb8b19308de</id>
